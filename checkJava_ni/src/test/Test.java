@@ -69,31 +69,30 @@ public class Test { //基本的にmainメソッドで実行できます。コー
 	/* 5.配列内の重複要素を見つけるプログラムを書いてください。
 	*/
 
-//	public static void main(String[] args) {
-		//			int[] numAry = { 1, 2, 3, 4, 5, 6, 4, 3, 2, 6, 7, 8, 5, 3, 2, 5, 7 };
-		//			int[] delNumAry = deleteDuplicationNum(numAry);
-		//			System.out.println(Arrays.toString(delNumAry));
-		//		System.out.println(Arrays.toString(numAry));
+	//	public static void main(String[] args) {
+	//			int[] numAry = { 1, 2, 3, 4, 5, 6, 4, 3, 2, 6, 7, 8, 5, 3, 2, 5, 7 };
+	//			int[] delNumAry = deleteDuplicationNum(numAry);
+	//			System.out.println(Arrays.toString(delNumAry));
+	//		System.out.println(Arrays.toString(numAry));
 
-//		int num[] = { 1, 2, 3, 4, 5, 6, 1, 7, 8, 9, 1, 6 };
-//		
-//		Set set = new HashSet(); //重複確認用
-//		for (int duplicateCheck : num) {
-//			//setに追加してみて、追加できなかった(重複していた)場合
-//			if (!set.add(duplicateCheck)) {
-//				System.out.println(duplicateCheck + "が重複しています。");
-//			}
-//		}
-//	};
+	//		int num[] = { 1, 2, 3, 4, 5, 6, 1, 7, 8, 9, 1, 6 };
+	//		
+	//		Set set = new HashSet(); //重複確認用
+	//		for (int duplicateCheck : num) {
+	//			//setに追加してみて、追加できなかった(重複していた)場合
+	//			if (!set.add(duplicateCheck)) {
+	//				System.out.println(duplicateCheck + "が重複しています。");
+	//			}
+	//		}
+	//	};
 
-	
-//		private static int[] deleteDuplicationNum(int[] numAry) {
-//			int[] delNumAry;
-//			delNumAry = Arrays.stream(numAry).distinct().toArray();
-//	
-//			return delNumAry;
-//	
-//		}
+	//		private static int[] deleteDuplicationNum(int[] numAry) {
+	//			int[] delNumAry;
+	//			delNumAry = Arrays.stream(numAry).distinct().toArray();
+	//	
+	//			return delNumAry;
+	//	
+	//		}
 
 	/* 6. 次のmainメソッドの中から、エラーが発生する箇所を選べ(発生しないことも考慮)。※エディタにコピペする前に考えてみて。
 	* 
@@ -138,21 +137,21 @@ public class Test { //基本的にmainメソッドで実行できます。コー
 	* 
 	*/
 
-	//	public static void main(String[] args) {
-	//		List<String> strList = Arrays.asList("Java", "Python", "C#", "javaScript", "C++", "VB", "PHP", "HTML", "CSS");
-	//		List<Integer> numList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 8, 5, 4, 3, 3, 5, 6);
-	//		List<Boolean> boolList = Arrays.asList(true, false, true, true, false, true, false);
-	//	
-	//		getData(strList);
-	//		getData(numList);
-	//		getData(boolList);
-	//	}
-	//
-	//	private static <E> void getData(List<E> array) {
-	//		for (E data : array) {
-	//			System.out.println(data);
-	//		}
-	//	}
+//		public static void main(String[] args) {
+//			List<String> strList = Arrays.asList("Java", "Python", "C#", "javaScript", "C++", "VB", "PHP", "HTML", "CSS");
+//			List<Integer> numList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 8, 5, 4, 3, 3, 5, 6);
+//			List<Boolean> boolList = Arrays.asList(true, false, true, true, false, true, false);
+//		
+//			getData(strList);
+//			getData(numList);
+//			getData(boolList);
+//		}
+//	
+//		private static <E> void getData(List<E> array) {
+//			for (E data : array) {
+//				System.out.println(data);
+//			}
+//		}
 
 	/* 4. 10から1までカウントダウンするプログラムを書け。
 	 * 
