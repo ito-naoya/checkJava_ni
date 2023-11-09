@@ -137,27 +137,27 @@ public class Test { //基本的にmainメソッドで実行できます。コー
 	* 
 	*/
 
-//			public static void main(String[] args) {
-//				List<String> strList = Arrays.asList("Java", "Python", "C#", "javaScript", "C++", "VB", "PHP", "HTML", "CSS");
-//				List<Integer> numList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 8, 5, 4, 3, 3, 5, 6);
-//				List<Boolean> boolList = Arrays.asList(true, false, true, true, false, true, false);
-//			
-//				getData(strList);
-//				getData(numList);
-//				getData(boolList);
-//			}
-//		
-//			private static <T> void getData(List<T> array) {
-//				for (T data : array) {
-//					System.out.println(data);
-//				}
-//			}
+	//	public static void main(String[] args) {
+	//		List<String> strList = Arrays.asList("Java", "Python", "C#", "javaScript", "C++", "VB", "PHP", "HTML", "CSS");
+	//		List<Integer> numList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 8, 5, 4, 3, 3, 5, 6);
+	//		List<Boolean> boolList = Arrays.asList(true, false, true, true, false, true, false);
+	//
+	//		getData(strList);
+	//		getData(numList);
+	//		getData(boolList);
+	//	}
 
-	//		private static <T> void getData(List<T> array) {
-	//			array.forEach( data -> {
-	//				System.out.println(data);
-	//			});
-	//		}
+	//				private static <T> void getData(List<T> list) {
+	//					for (T data : list) {
+	//						System.out.println(data);
+	//					}
+	//				}
+
+	//	private static <T> void getData(List<T> list) {
+	//		list.forEach(data -> {
+	//			System.out.println(data);
+	//		});
+	//	}
 
 	/* 4. 10から1までカウントダウンするプログラムを書け。
 	 * 
