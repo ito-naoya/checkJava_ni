@@ -141,22 +141,26 @@ public class Test { //基本的にmainメソッドで実行できます。コー
 	//		List<String> strList = Arrays.asList("Java", "Python", "C#", "javaScript", "C++", "VB", "PHP", "HTML", "CSS");
 	//		List<Integer> numList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 8, 5, 4, 3, 3, 5, 6);
 	//		List<Boolean> boolList = Arrays.asList(true, false, true, true, false, true, false);
+	//		
+	//		String[] strList = {"Java", "Python", "C#", "javaScript", "C++", "VB", "PHP", "HTML", "CSS"};
+	//		Integer[] numList = {1, 2, 3, 4, 5, 6, 7, 8, 8, 5, 4, 3, 3, 5, 6};
+	//		Boolean[] boolList = {true, false, true, true, false, true, false};
 	//
 	//		getData(strList);
 	//		getData(numList);
 	//		getData(boolList);
 	//	}
 
-	//				private static <T> void getData(List<T> list) {
-	//					for (T data : list) {
-	//						System.out.println(data);
-	//					}
-	//				}
-
 	//	private static <T> void getData(List<T> list) {
 	//		list.forEach(data -> {
 	//			System.out.println(data);
 	//		});
+	//	}
+
+	//	private static <T> void getData(T[] array) {
+	//		for (T data : array) {
+	//			System.out.println(data);
+	//		}
 	//	}
 
 	/* 4. 10から1までカウントダウンするプログラムを書け。
