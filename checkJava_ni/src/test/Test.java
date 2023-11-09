@@ -124,7 +124,8 @@ public class Test { //基本的にmainメソッドで実行できます。コー
 	/* 
 	* 2. 与えられた整数nまでの全ての偶数を印刷するプログラムを書け。※ここでは、n=10とする。 */
 	//	 	public static void main(String[] args) {
-	//	 		printEvenNumber(10);
+	//			int n = 10;
+	//	 		printEvenNumber(n);
 	//	}
 	//	 	
 	//	 	private static void printEvenNumber(int num) {
